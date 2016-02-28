@@ -9,10 +9,18 @@
                    A suite for man in the middle attacks
 ----------------------------------------------------------------------------------
 
-> 2016 2 28 | ZhuZhiHao
+> 2016 2 28  
+> ZhuZhiHao  
 
-###                  Ettercap porting to Android
+```
+去除Ncurses界面（无用）
+添加SSL | HTTPS嗅探支持
+版本更新ETTERCAP 0.8.1---> ETTERCAP 0.8.2
+```
+
+###                  E T T E R C A P   P O R T I N G   TO   A N D R O I D
 - Prebuild binary in Prebuild/ettercap.tar.xz
+- Just put binary in /data/data:
 
 `tar -Jxvf ettercap.tar.xz -C /data/data/`
 
@@ -21,6 +29,7 @@
 - Try -\_<
 - `export PATH=/data/data/hack.wireshark.android/ettercap/bin/:$PATH`
 - `ettercap -T`
+
 
 
 ###                     R E Q U I R E D   P R O G R A M S
