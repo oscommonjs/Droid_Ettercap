@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src/lua/share/lib
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

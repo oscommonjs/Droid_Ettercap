@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/desktop
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/desktop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

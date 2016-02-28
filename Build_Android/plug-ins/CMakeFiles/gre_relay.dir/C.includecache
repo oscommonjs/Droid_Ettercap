@@ -284,7 +284,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/gre_relay/gre_relay.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/gre_relay/gre_relay.c
 ec.h
 -
 ec_plugins.h

@@ -274,7 +274,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/smb_down/smb_down.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/smb_down/smb_down.c
 ec.h
 -
 ec_plugins.h

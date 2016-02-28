@@ -47,6 +47,7 @@
 /data/data/hack.wireshark.android/ettercap/share/ettercap/lua/third-party/table_ext.lua
 /data/data/hack.wireshark.android/ettercap/share/ettercap/lua/third-party/tree.lua
 /data/data/hack.wireshark.android/ettercap/share/ettercap/lua/third-party/xml.lua
+/data/data/hack.wireshark.android/ettercap/lib/ettercap/ec_sslstrip.so
 /data/data/hack.wireshark.android/ettercap/lib/ettercap/ec_arp_cop.so
 /data/data/hack.wireshark.android/ettercap/lib/ettercap/ec_autoadd.so
 /data/data/hack.wireshark.android/ettercap/lib/ettercap/ec_chk_poison.so
@@ -108,6 +109,4 @@
 /data/data/hack.wireshark.android/ettercap/share/man/man8/etterfilter.8
 /data/data/hack.wireshark.android/ettercap/share/man/man8/etterlog.8
 /data/data/hack.wireshark.android/ettercap/share/man/man8/ettercap_plugins.8
-/data/data/hack.wireshark.android/ettercap/share/man/man8/ettercap_curses.8
-/data/data/hack.wireshark.android/ettercap/share/man/man8/ettercap-pkexec.8
 /data/data/hack.wireshark.android/ettercap/share/man/man5/etter.conf.5

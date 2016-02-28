@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/utils
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,12 +47,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/bin" TYPE EXECUTABLE FILES "/root/ettercap-0.8.2/Build_Android/utils/etterfilter")
+file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/bin" TYPE EXECUTABLE FILES "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/utils/etterfilter")
   if(EXISTS "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterfilter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterfilter")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterfilter"
-         OLD_RPATH "/root/ettercap-0.8.2/Build_Android/src::::::::"
+         OLD_RPATH "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src:"
          NEW_RPATH "/data/data/hack.wireshark.android/ettercap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterfilter")
@@ -75,12 +75,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/bin" TYPE EXECUTABLE FILES "/root/ettercap-0.8.2/Build_Android/utils/etterlog")
+file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/bin" TYPE EXECUTABLE FILES "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/utils/etterlog")
   if(EXISTS "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterlog" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterlog")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterlog"
-         OLD_RPATH "/root/ettercap-0.8.2/Build_Android/src::::::::"
+         OLD_RPATH "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src:"
          NEW_RPATH "/data/data/hack.wireshark.android/ettercap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/etterlog")

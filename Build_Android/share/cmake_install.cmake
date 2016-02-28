@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/share
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/share
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,10 +42,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/etc/ettercap" TYPE FILE FILES
-    "/root/ettercap-0.8.2/Build_Android/share/etter.dns"
-    "/root/ettercap-0.8.2/share/etter.mdns"
-    "/root/ettercap-0.8.2/share/etter.nbns"
-    "/root/ettercap-0.8.2/Build_Android/share/etter.conf"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/share/etter.dns"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.mdns"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.nbns"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/share/etter.conf"
     )
 endif()
 
@@ -59,25 +59,25 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/ettercap" TYPE FILE FILES
-    "/root/ettercap-0.8.2/Build_Android/share/ettercap.png"
-    "/root/ettercap-0.8.2/share/ettercap-small.png"
-    "/root/ettercap-0.8.2/share/ettercap.svg"
-    "/root/ettercap-0.8.2/share/etter.fields"
-    "/root/ettercap-0.8.2/share/etter.filter"
-    "/root/ettercap-0.8.2/share/etterfilter.cnt"
-    "/root/ettercap-0.8.2/share/etter.filter.examples"
-    "/root/ettercap-0.8.2/share/etter.filter.kill"
-    "/root/ettercap-0.8.2/share/etter.filter.pcre"
-    "/root/ettercap-0.8.2/share/etter.filter.ssh"
-    "/root/ettercap-0.8.2/share/etterfilter.tbl"
-    "/root/ettercap-0.8.2/share/etter.finger.mac"
-    "/root/ettercap-0.8.2/share/etter.finger.os"
-    "/root/ettercap-0.8.2/share/etterlog.dtd"
-    "/root/ettercap-0.8.2/share/etter.mime"
-    "/root/ettercap-0.8.2/share/etter.services"
-    "/root/ettercap-0.8.2/share/etter.ssl.crt"
-    "/root/ettercap-0.8.2/share/../AUTHORS"
-    "/root/ettercap-0.8.2/share/../LICENSE"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/share/ettercap.png"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/ettercap-small.png"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/ettercap.svg"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.fields"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.filter"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etterfilter.cnt"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.filter.examples"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.filter.kill"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.filter.pcre"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.filter.ssh"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etterfilter.tbl"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.finger.mac"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.finger.os"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etterlog.dtd"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.mime"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.services"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/etter.ssl.crt"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/../AUTHORS"
+    "/home/zzh/WorkSpace/Droid_Ettercap/share/../LICENSE"
     )
 endif()
 

@@ -4,22 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/root/ettercap-0.8.2/plug-ins/arp_cop/arp_cop.c" "/root/ettercap-0.8.2/Build_Android/plug-ins/CMakeFiles/arp_cop.dir/arp_cop/arp_cop.c.o"
+  "/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/arp_cop/arp_cop.c" "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/plug-ins/CMakeFiles/arp_cop.dir/arp_cop/arp_cop.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
-
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/ettercap-0.8.2/Build_Android/src/CMakeFiles/lib_ettercap.dir/DependInfo.cmake"
-  "/root/ettercap-0.8.2/Build_Android/src/lua/CMakeFiles/ec_lua.dir/DependInfo.cmake"
-  )
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "include"
   "../include"
-  "/usr/include/ncurses"
   )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/CMakeFiles/lib_ettercap.dir/DependInfo.cmake"
+  "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/CMakeFiles/ec_lua.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

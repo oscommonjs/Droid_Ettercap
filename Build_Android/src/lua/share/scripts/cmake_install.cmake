@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src/lua/share/scripts
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,14 +42,14 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/ettercap/lua/scripts" TYPE FILE FILES
-    "/root/ettercap-0.8.2/src/lua/share/scripts/inject_http.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/inject_http_demo.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/get_imap_demo.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/tcp_session_demo.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/http_creds.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/http_requests.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/inject_http.lua"
-    "/root/ettercap-0.8.2/src/lua/share/scripts/smtp_redir.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/inject_http.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/inject_http_demo.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/get_imap_demo.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/tcp_session_demo.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/http_creds.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/http_requests.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/inject_http.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/scripts/smtp_redir.lua"
     )
 endif()
 

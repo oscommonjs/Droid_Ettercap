@@ -286,7 +286,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/rand_flood/rand_flood.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/rand_flood/rand_flood.c
 ec.h
 -
 ec_plugins.h

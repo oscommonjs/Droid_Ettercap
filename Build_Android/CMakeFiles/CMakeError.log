@@ -1,16 +1,15 @@
 Determining if the system is big endian passed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+Change Dir: /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1801456382/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1801456382.dir/build.make CMakeFiles/cmTryCompileExec1801456382.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1801456382.dir/TestEndianess.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1801456382.dir/TestEndianess.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTryCompileExec1801456382
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1801456382.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1801456382.dir/TestEndianess.c.o  -o cmTryCompileExec1801456382 -rdynamic 
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_41309/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41309.dir/build.make CMakeFiles/cmTC_41309.dir/build
+make[1]: Entering directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41309.dir/TestEndianess.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_41309.dir/TestEndianess.c.o   -c /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_41309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41309.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_41309.dir/TestEndianess.c.o  -o cmTC_41309 -rdynamic 
+make[1]: Leaving directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -38,47 +37,28 @@ int main(int argc, char *argv[])
 }
 
 
-Determining if the include file ltdl.h exists failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2967176060/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2967176060.dir/build.make CMakeFiles/cmTryCompileExec2967176060.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2967176060.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2967176060.dir/CheckIncludeFile.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: ltdl.h: No such file or directory
-compilation terminated.
-CMakeFiles/cmTryCompileExec2967176060.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2967176060.dir/CheckIncludeFile.c.o' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2967176060.dir/CheckIncludeFile.c.o] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec2967176060/fast' failed
-make: *** [cmTryCompileExec2967176060/fast] Error 2
-
-
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+Change Dir: /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1113525908/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1113525908.dir/build.make CMakeFiles/cmTryCompileExec1113525908.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1113525908.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1113525908.dir/CheckSymbolExists.c.o   -c /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1113525908
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1113525908.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1113525908.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1113525908 -rdynamic 
-CMakeFiles/cmTryCompileExec1113525908.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
-CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec1113525908.dir/build.make:88: recipe for target 'cmTryCompileExec1113525908' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1113525908] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec1113525908/fast' failed
-make: *** [cmTryCompileExec1113525908/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_9aad6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9aad6.dir/build.make CMakeFiles/cmTC_9aad6.dir/build
+make[1]: Entering directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9aad6.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9aad6.dir/CheckSymbolExists.c.o   -c /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9aad6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aad6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9aad6.dir/CheckSymbolExists.c.o  -o cmTC_9aad6 -rdynamic 
+CMakeFiles/cmTC_9aad6.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0xe)：对‘pthread_create’未定义的引用
+CheckSymbolExists.c:(.text+0x12)：对‘pthread_create’未定义的引用
+collect2: 错误：ld 返回 1
+CMakeFiles/cmTC_9aad6.dir/build.make:97: recipe for target 'cmTC_9aad6' failed
+make[1]: Leaving directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTC_9aad6] Error 1
+Makefile:126: recipe for target 'cmTC_9aad6/fast' failed
+make: *** [cmTC_9aad6/fast] Error 2
 
-File /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -94,109 +74,64 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+Change Dir: /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1036042395/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1036042395.dir/build.make CMakeFiles/cmTryCompileExec1036042395.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1036042395.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1036042395.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1036042395
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1036042395.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1036042395.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1036042395 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec1036042395.dir/build.make:88: recipe for target 'cmTryCompileExec1036042395' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1036042395] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec1036042395/fast' failed
-make: *** [cmTryCompileExec1036042395/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_fe431/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe431.dir/build.make CMakeFiles/cmTC_fe431.dir/build
+make[1]: Entering directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe431.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fe431.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe431
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe431.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fe431.dir/CheckFunctionExists.c.o  -o cmTC_fe431 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: 错误：ld 返回 1
+CMakeFiles/cmTC_fe431.dir/build.make:97: recipe for target 'cmTC_fe431' failed
+make[1]: Leaving directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTC_fe431] Error 1
+Makefile:126: recipe for target 'cmTC_fe431/fast' failed
+make: *** [cmTC_fe431/fast] Error 2
 
 
 Determining if the function strlcat exists failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+Change Dir: /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3566017444/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3566017444.dir/build.make CMakeFiles/cmTryCompileExec3566017444.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3566017444.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec3566017444.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3566017444
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3566017444.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec3566017444.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3566017444 -rdynamic 
-CMakeFiles/cmTryCompileExec3566017444.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text+0xa): undefined reference to `strlcat'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec3566017444.dir/build.make:88: recipe for target 'cmTryCompileExec3566017444' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec3566017444] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec3566017444/fast' failed
-make: *** [cmTryCompileExec3566017444/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_21799/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21799.dir/build.make CMakeFiles/cmTC_21799.dir/build
+make[1]: Entering directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21799.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_21799.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21799.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTC_21799.dir/CheckFunctionExists.c.o  -o cmTC_21799 -rdynamic 
+CMakeFiles/cmTC_21799.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0xa)：对‘strlcat’未定义的引用
+collect2: 错误：ld 返回 1
+CMakeFiles/cmTC_21799.dir/build.make:97: recipe for target 'cmTC_21799' failed
+make[1]: Leaving directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTC_21799] Error 1
+Makefile:126: recipe for target 'cmTC_21799/fast' failed
+make: *** [cmTC_21799/fast] Error 2
 
 
 Determining if the function strlcpy exists failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
+Change Dir: /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec311993835/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec311993835.dir/build.make CMakeFiles/cmTryCompileExec311993835.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec311993835.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec311993835.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec311993835
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec311993835.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec311993835.dir/CheckFunctionExists.c.o  -o cmTryCompileExec311993835 -rdynamic 
-CMakeFiles/cmTryCompileExec311993835.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text+0xa): undefined reference to `strlcpy'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec311993835.dir/build.make:88: recipe for target 'cmTryCompileExec311993835' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec311993835] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec311993835/fast' failed
-make: *** [cmTryCompileExec311993835/fast] Error 2
-
-
-Determining if the function strlcat exists in the bsd failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2203194506/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2203194506.dir/build.make CMakeFiles/cmTryCompileExec2203194506.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2203194506.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec2203194506.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2203194506
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2203194506.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec2203194506.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2203194506  -L/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/bsd/string.h -rdynamic -lbsd -Wl,-rpath,/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/bsd/string.h 
-/usr/bin/ld: cannot find -lbsd
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec2203194506.dir/build.make:88: recipe for target 'cmTryCompileExec2203194506' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2203194506] Error 1
-Makefile:117: recipe for target 'cmTryCompileExec2203194506/fast' failed
-make: *** [cmTryCompileExec2203194506/fast] Error 2
-
-
-Determining if the function strlcpy exists in the bsd failed with the following output:
-Change Dir: /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec365952215/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec365952215.dir/build.make CMakeFiles/cmTryCompileExec365952215.dir/build
-make[1]: Entering directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec365952215.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec365952215.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec365952215
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec365952215.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec365952215.dir/CheckFunctionExists.c.o  -o cmTryCompileExec365952215  -L/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/bsd/string.h -rdynamic -lbsd -Wl,-rpath,/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp/bsd/string.h 
-/usr/bin/ld: cannot find -lbsd
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec365952215.dir/build.make:88: recipe for target 'cmTryCompileExec365952215' failed
-make[1]: Leaving directory '/root/ettercap-0.8.2/Build_Android/CMakeFiles/CMakeTmp'
-Makefile:117: recipe for target 'cmTryCompileExec365952215/fast' failed
-make[1]: *** [cmTryCompileExec365952215] Error 1
-make: *** [cmTryCompileExec365952215/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_2a598/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a598.dir/build.make CMakeFiles/cmTC_2a598.dir/build
+make[1]: Entering directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a598.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_2a598.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.4/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a598.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_2a598.dir/CheckFunctionExists.c.o  -o cmTC_2a598 -rdynamic 
+CMakeFiles/cmTC_2a598.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0xa)：对‘strlcpy’未定义的引用
+collect2: 错误：ld 返回 1
+CMakeFiles/cmTC_2a598.dir/build.make:97: recipe for target 'cmTC_2a598' failed
+make[1]: *** [cmTC_2a598] Error 1
+make[1]: Leaving directory '/opt/src/Droid_Ettercap/Build_Android/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2a598/fast' failed
+make: *** [cmTC_2a598/fast] Error 2
 
 

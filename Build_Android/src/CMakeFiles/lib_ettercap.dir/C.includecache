@@ -406,7 +406,7 @@ dirent.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/src/dissectors/ec_TN3270.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_TN3270.c
 ec.h
 -
 ec_decode.h
@@ -416,7 +416,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_bgp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_bgp.c
 ec.h
 -
 ec_decode.h
@@ -424,7 +424,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_cvs.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_cvs.c
 ec.h
 -
 ec_decode.h
@@ -434,7 +434,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_dhcp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_dhcp.c
 ec.h
 -
 ec_decode.h
@@ -444,7 +444,7 @@ ec_dissect.h
 ec_proto.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_dns.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_dns.c
 ec.h
 -
 ec_decode.h
@@ -454,7 +454,7 @@ ec_dissect.h
 ec_resolv.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_ftp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_ftp.c
 ec.h
 -
 ec_decode.h
@@ -466,7 +466,7 @@ ec_session.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_gg.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_gg.c
 ec.h
 -
 ec_decode.h
@@ -474,7 +474,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_http.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_http.c
 ec.h
 -
 ec_file.h
@@ -488,7 +488,7 @@ ec_session.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_icq.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_icq.c
 ec.h
 -
 ec_decode.h
@@ -498,19 +498,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_imap.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-ec_sslwrap.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_irc.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_imap.c
 ec.h
 -
 ec_decode.h
@@ -522,7 +510,19 @@ ec_session.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_iscsi.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_irc.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+ec_sslwrap.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_iscsi.c
 ec.h
 -
 ec_decode.h
@@ -532,7 +532,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_ldap.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_ldap.c
 ec.h
 -
 ec_decode.h
@@ -542,7 +542,7 @@ ec_dissect.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_mdns.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_mdns.c
 ec.h
 -
 ec_dissect.h
@@ -550,7 +550,7 @@ ec_dissect.h
 ec_resolv.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_mongodb.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_mongodb.c
 ec.h
 -
 ec_decode.h
@@ -560,7 +560,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_mountd.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_mountd.c
 ec.h
 -
 ec_decode.h
@@ -570,7 +570,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_msn.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_msn.c
 ec.h
 -
 ec_decode.h
@@ -580,7 +580,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_mysql.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_mysql.c
 ec.h
 -
 ec_decode.h
@@ -590,7 +590,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_nbns.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_nbns.c
 ec.h
 -
 ec_decode.h
@@ -598,37 +598,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_nntp.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-ec_sslwrap.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_o5logon.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_ospf.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_pop.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_nntp.c
 ec.h
 -
 ec_decode.h
@@ -640,7 +610,7 @@ ec_session.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_portmap.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_o5logon.c
 ec.h
 -
 ec_decode.h
@@ -650,17 +620,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_postgresql.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_radius.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_ospf.c
 ec.h
 -
 ec_decode.h
@@ -668,43 +628,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_rcon.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_rip.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_rlogin.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_smb.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_smtp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_pop.c
 ec.h
 -
 ec_decode.h
@@ -716,7 +640,83 @@ ec_session.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_snmp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_portmap.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_postgresql.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_radius.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_rcon.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_rip.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_rlogin.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_smb.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_smtp.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+ec_sslwrap.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_snmp.c
 ec.h
 -
 ec_decode.h
@@ -726,7 +726,7 @@ ec_dissect.h
 ec_resolv.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_socks.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_socks.c
 ec.h
 -
 ec_decode.h
@@ -736,7 +736,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_ssh.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_ssh.c
 ec.h
 -
 ec_decode.h
@@ -760,7 +760,7 @@ openssl/md5.h
 zlib.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_telnet.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_telnet.c
 ec.h
 -
 ec_decode.h
@@ -772,7 +772,7 @@ ec_session.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_vnc.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_vnc.c
 ec.h
 -
 ec_decode.h
@@ -782,7 +782,7 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_vrrp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_vrrp.c
 ec.h
 -
 ec_decode.h
@@ -790,17 +790,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/dissectors/ec_x11.c
-ec.h
--
-ec_decode.h
--
-ec_dissect.h
--
-ec_session.h
--
-
-/root/ettercap-0.8.2/src/dissectors/ec_ymsg.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_x11.c
 ec.h
 -
 ec_decode.h
@@ -810,7 +800,17 @@ ec_dissect.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/ec_capture.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/dissectors/ec_ymsg.c
+ec.h
+-
+ec_decode.h
+-
+ec_dissect.h
+-
+ec_session.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_capture.c
 ec.h
 -
 ec_decode.h
@@ -830,7 +830,7 @@ libnet.h
 ifaddrs.h
 -
 
-/root/ettercap-0.8.2/src/ec_checksum.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_checksum.c
 ec.h
 -
 ec_packet.h
@@ -838,7 +838,7 @@ ec_packet.h
 ec_checksum.h
 -
 
-/root/ettercap-0.8.2/src/ec_conf.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_conf.c
 ec.h
 -
 ec_conf.h
@@ -848,7 +848,7 @@ ec_file.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/ec_connbuf.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_connbuf.c
 ec.h
 -
 ec_packet.h
@@ -856,7 +856,7 @@ ec_packet.h
 ec_connbuf.h
 -
 
-/root/ettercap-0.8.2/src/ec_conntrack.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_conntrack.c
 ec.h
 -
 ec_threads.h
@@ -874,7 +874,7 @@ ec_hash.h
 ec_sleep.h
 -
 
-/root/ettercap-0.8.2/src/ec_debug.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_debug.c
 ec.h
 -
 ec_lua.h
@@ -902,7 +902,7 @@ sys/utsname.h
 features.h
 -
 
-/root/ettercap-0.8.2/src/ec_decode.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_decode.c
 ec.h
 -
 ec_decode.h
@@ -932,7 +932,7 @@ pthread.h
 libgen.h
 -
 
-/root/ettercap-0.8.2/src/ec_dispatcher.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_dispatcher.c
 ec.h
 -
 ec_threads.h
@@ -944,7 +944,7 @@ ec_stats.h
 ec_sleep.h
 -
 
-/root/ettercap-0.8.2/src/ec_dissect.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_dissect.c
 ec.h
 -
 ec_dissect.h
@@ -954,7 +954,7 @@ ec_packet.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/ec_encryption.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_encryption.c
 ec.h
 -
 ec_encryption.h
@@ -976,7 +976,7 @@ openssl/hmac.h
 openssl/aes.h
 -
 
-/root/ettercap-0.8.2/src/ec_encryption_ccmp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_encryption_ccmp.c
 ec.h
 -
 ec_encryption.h
@@ -988,7 +988,7 @@ ec_threads.h
 openssl/aes.h
 -
 
-/root/ettercap-0.8.2/src/ec_encryption_tkip.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_encryption_tkip.c
 ec.h
 -
 ec_encryption.h
@@ -1002,7 +1002,7 @@ ec_threads.h
 openssl/rc4.h
 -
 
-/root/ettercap-0.8.2/src/ec_error.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_error.c
 ec.h
 -
 ec_ui.h
@@ -1012,7 +1012,7 @@ stdarg.h
 errno.h
 -
 
-/root/ettercap-0.8.2/src/ec_exit.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_exit.c
 ec.h
 -
 ec_ui.h
@@ -1024,7 +1024,7 @@ ec_threads.h
 ec_lua.h
 -
 
-/root/ettercap-0.8.2/src/ec_file.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_file.c
 ec.h
 -
 ec_file.h
@@ -1032,7 +1032,7 @@ ec_file.h
 ec_version.h
 -
 
-/root/ettercap-0.8.2/src/ec_filter.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_filter.c
 ec.h
 -
 ec_filter.h
@@ -1054,7 +1054,7 @@ regex.h
 pcre.h
 -
 
-/root/ettercap-0.8.2/src/ec_fingerprint.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_fingerprint.c
 ec.h
 -
 ec_file.h
@@ -1064,7 +1064,7 @@ ec_socket.h
 ec_fingerprint.h
 -
 
-/root/ettercap-0.8.2/src/ec_format.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_format.c
 ec.h
 -
 ec_format.h
@@ -1076,7 +1076,7 @@ ctype.h
 iconv.h
 -
 
-/root/ettercap-0.8.2/src/ec_globals.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_globals.c
 ec.h
 -
 ec_sniff.h
@@ -1086,13 +1086,13 @@ ec_filter.h
 ec_plugins.h
 -
 
-/root/ettercap-0.8.2/src/ec_hash.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_hash.c
 ec.h
 -
 ec_hash.h
 -
 
-/root/ettercap-0.8.2/src/ec_hook.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_hook.c
 ec.h
 -
 ec_hook.h
@@ -1104,7 +1104,7 @@ ec_lua.h
 pthread.h
 -
 
-/root/ettercap-0.8.2/src/ec_inet.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_inet.c
 ec.h
 -
 ec_inet.h
@@ -1112,7 +1112,7 @@ ec_inet.h
 ec_ui.h
 -
 
-/root/ettercap-0.8.2/src/ec_inject.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_inject.c
 ec.h
 -
 ec_packet.h
@@ -1124,7 +1124,7 @@ ec_send.h
 ec_session_tcp.h
 -
 
-/root/ettercap-0.8.2/src/ec_log.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_log.c
 ec.h
 -
 ec_log.h
@@ -1152,7 +1152,7 @@ zlib.h
 regex.h
 -
 
-/root/ettercap-0.8.2/src/ec_manuf.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_manuf.c
 ec.h
 -
 ec_file.h
@@ -1160,11 +1160,11 @@ ec_file.h
 ec_hash.h
 -
 
-/root/ettercap-0.8.2/src/ec_mem.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_mem.c
 ec.h
 -
 
-/root/ettercap-0.8.2/src/ec_mitm.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_mitm.c
 ec.h
 -
 ec_mitm.h
@@ -1176,7 +1176,7 @@ ec_scan.h
 ec_sleep.h
 -
 
-/root/ettercap-0.8.2/src/ec_network.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_network.c
 ec.h
 -
 ec_capture.h
@@ -1196,7 +1196,7 @@ libnet.h
 ifaddrs.h
 -
 
-/root/ettercap-0.8.2/src/ec_packet.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_packet.c
 ec.h
 -
 ec_packet.h
@@ -1208,7 +1208,7 @@ ec_ui.h
 ec_format.h
 -
 
-/root/ettercap-0.8.2/src/ec_passive.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_passive.c
 ec.h
 -
 ec_passive.h
@@ -1224,7 +1224,7 @@ ec_manuf.h
 ec_services.h
 -
 
-/root/ettercap-0.8.2/src/ec_plugins.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_plugins.c
 ec.h
 -
 ec_plugins.h
@@ -1238,7 +1238,7 @@ ltdl.h
 dlfcn.h
 -
 
-/root/ettercap-0.8.2/src/ec_poll.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_poll.c
 ec.h
 -
 sys/poll.h
@@ -1248,7 +1248,7 @@ poll.h
 sys/select.h
 -
 
-/root/ettercap-0.8.2/src/ec_profiles.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_profiles.c
 ec.h
 -
 ec_threads.h
@@ -1266,7 +1266,7 @@ ec_scan.h
 ec_log.h
 -
 
-/root/ettercap-0.8.2/src/ec_resolv.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_resolv.c
 ec.h
 -
 ec_resolv.h
@@ -1278,7 +1278,7 @@ ec_threads.h
 netdb.h
 -
 
-/root/ettercap-0.8.2/src/ec_scan.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_scan.c
 ec.h
 -
 ec_packet.h
@@ -1304,7 +1304,7 @@ pcap.h
 libnet.h
 -
 
-/root/ettercap-0.8.2/src/ec_send.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_send.c
 ec.h
 -
 sys/ioctl.h
@@ -1322,7 +1322,7 @@ pcap.h
 libnet.h
 -
 
-/root/ettercap-0.8.2/src/ec_services.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_services.c
 ec.h
 -
 ec_file.h
@@ -1330,7 +1330,7 @@ ec_file.h
 ec_proto.h
 -
 
-/root/ettercap-0.8.2/src/ec_session.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_session.c
 ec.h
 -
 ec_packet.h
@@ -1342,7 +1342,7 @@ ec_session.h
 signal.h
 -
 
-/root/ettercap-0.8.2/src/ec_set.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_set.c
 ec.h
 -
 ec_sniff.h
@@ -1370,7 +1370,7 @@ ec_lua.h
 ctype.h
 -
 
-/root/ettercap-0.8.2/src/ec_signals.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_signals.c
 ec.h
 -
 ec_version.h
@@ -1392,7 +1392,7 @@ sys/resource.h
 sys/wait.h
 -
 
-/root/ettercap-0.8.2/src/ec_sleep.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_sleep.c
 ec.h
 -
 ec_sleep.h
@@ -1402,7 +1402,7 @@ unistd.h
 time.h
 -
 
-/root/ettercap-0.8.2/src/ec_sniff.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_sniff.c
 ec.h
 -
 ec_utils.h
@@ -1420,7 +1420,7 @@ ec_inet.h
 pthread.h
 -
 
-/root/ettercap-0.8.2/src/ec_sniff_bridge.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_sniff_bridge.c
 ec.h
 -
 ec_capture.h
@@ -1432,7 +1432,7 @@ ec_threads.h
 ec_conntrack.h
 -
 
-/root/ettercap-0.8.2/src/ec_sniff_unified.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_sniff_unified.c
 ec.h
 -
 ec_capture.h
@@ -1448,7 +1448,7 @@ ec_conntrack.h
 ec_sslwrap.h
 -
 
-/root/ettercap-0.8.2/src/ec_socket.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_socket.c
 ec.h
 -
 ec_signals.h
@@ -1470,7 +1470,7 @@ arpa/inet.h
 fcntl.h
 -
 
-/root/ettercap-0.8.2/src/ec_sslwrap.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_sslwrap.c
 ec.h
 -
 ec_decode.h
@@ -1510,7 +1510,7 @@ sys/poll.h
 openssl/ssl.h
 -
 
-/root/ettercap-0.8.2/src/ec_stats.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_stats.c
 ec.h
 -
 ec_stats.h
@@ -1522,7 +1522,7 @@ libnet.h
 sys/time.h
 -
 
-/root/ettercap-0.8.2/src/ec_streambuf.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_streambuf.c
 ec.h
 -
 ec_packet.h
@@ -1530,7 +1530,7 @@ ec_packet.h
 ec_streambuf.h
 -
 
-/root/ettercap-0.8.2/src/ec_strings.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_strings.c
 ec.h
 -
 ec_sleep.h
@@ -1538,7 +1538,7 @@ ec_sleep.h
 ctype.h
 -
 
-/root/ettercap-0.8.2/src/ec_threads.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_threads.c
 ec.h
 -
 ec_threads.h
@@ -1548,7 +1548,7 @@ pthread.h
 errno.h
 -
 
-/root/ettercap-0.8.2/src/ec_ui.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_ui.c
 ec.h
 -
 ec_ui.h
@@ -1558,7 +1558,7 @@ stdarg.h
 pthread.h
 -
 
-/root/ettercap-0.8.2/src/ec_utils.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_utils.c
 ec.h
 -
 ec_interfaces.h
@@ -1588,19 +1588,7 @@ ec_lua.h
 ctype.h
 -
 
-/root/ettercap-0.8.2/src/missing/strlcat.c
-sys/types.h
--
-string.h
--
-
-/root/ettercap-0.8.2/src/missing/strlcpy.c
-sys/types.h
--
-string.h
--
-
-/root/ettercap-0.8.2/src/mitm/ec_arp_poisoning.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/mitm/ec_arp_poisoning.c
 ec.h
 -
 ec_mitm.h
@@ -1616,7 +1604,7 @@ ec_ui.h
 ec_sleep.h
 -
 
-/root/ettercap-0.8.2/src/mitm/ec_dhcp_spoofing.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/mitm/ec_dhcp_spoofing.c
 ec.h
 -
 ec_mitm.h
@@ -1634,7 +1622,7 @@ ec_packet.h
 ec_proto.h
 -
 
-/root/ettercap-0.8.2/src/mitm/ec_icmp_redirect.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/mitm/ec_icmp_redirect.c
 ec.h
 -
 ec_mitm.h
@@ -1650,7 +1638,7 @@ ec_hook.h
 ec_packet.h
 -
 
-/root/ettercap-0.8.2/src/mitm/ec_ip6nd_poison.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/mitm/ec_ip6nd_poison.c
 ec.h
 -
 ec_mitm.h
@@ -1664,7 +1652,7 @@ ec_hook.h
 ec_sleep.h
 -
 
-/root/ettercap-0.8.2/src/mitm/ec_port_stealing.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/mitm/ec_port_stealing.c
 ec.h
 -
 ec_mitm.h
@@ -1680,7 +1668,7 @@ ec_hook.h
 ec_sleep.h
 -
 
-/root/ettercap-0.8.2/src/os/ec_linux.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/os/ec_linux.c
 ec.h
 -
 sys/ioctl.h
@@ -1690,21 +1678,13 @@ sys/wait.h
 net/if.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_arp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_arp.c
 ec.h
 -
 ec_decode.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_cooked.c
-ec.h
--
-ec_decode.h
--
-ec_capture.h
--
-
-/root/ettercap-0.8.2/src/protocols/ec_erf.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_cooked.c
 ec.h
 -
 ec_decode.h
@@ -1712,7 +1692,15 @@ ec_decode.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_esp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_erf.c
+ec.h
+-
+ec_decode.h
+-
+ec_capture.h
+-
+
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_esp.c
 ec.h
 -
 ec_decode.h
@@ -1720,7 +1708,7 @@ ec_decode.h
 ec_inject.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_eth.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_eth.c
 ec.h
 -
 ec_decode.h
@@ -1730,7 +1718,7 @@ ec_send.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_fddi.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_fddi.c
 ec.h
 -
 ec_decode.h
@@ -1740,7 +1728,7 @@ ec_send.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_gre.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_gre.c
 ec.h
 -
 ec_decode.h
@@ -1748,7 +1736,7 @@ ec_decode.h
 ec_inject.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_icmp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_icmp.c
 ec.h
 -
 ec_decode.h
@@ -1756,7 +1744,7 @@ ec_decode.h
 ec_checksum.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_icmp6.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_icmp6.c
 ec.h
 -
 ec_decode.h
@@ -1764,7 +1752,7 @@ ec_decode.h
 ec_checksum.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_ip.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_ip.c
 ec.h
 -
 ec_inet.h
@@ -1780,7 +1768,7 @@ ec_session.h
 ec_inject.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_ip6.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_ip6.c
 ec.h
 -
 ec_decode.h
@@ -1792,7 +1780,7 @@ ec_inet.h
 ec_session.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_mpls.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_mpls.c
 ec.h
 -
 ec_decode.h
@@ -1800,7 +1788,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_null.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_null.c
 ec.h
 -
 ec_decode.h
@@ -1808,7 +1796,7 @@ ec_decode.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_ppi.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_ppi.c
 ec.h
 -
 ec_decode.h
@@ -1816,7 +1804,7 @@ ec_decode.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_ppp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_ppp.c
 ec.h
 -
 ec_decode.h
@@ -1828,7 +1816,7 @@ ec_dissect.h
 openssl/sha.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_pppoe.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_pppoe.c
 ec.h
 -
 ec_decode.h
@@ -1836,7 +1824,7 @@ ec_decode.h
 ec_dissect.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_rawip.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_rawip.c
 ec.h
 -
 ec_decode.h
@@ -1844,7 +1832,7 @@ ec_decode.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_tcp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_tcp.c
 ec.h
 -
 ec_decode.h
@@ -1860,7 +1848,7 @@ ec_session_tcp.h
 ec_inject.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_tr.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_tr.c
 ec.h
 -
 ec_decode.h
@@ -1870,7 +1858,7 @@ ec_send.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_udp.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_udp.c
 ec.h
 -
 ec_decode.h
@@ -1880,7 +1868,7 @@ ec_checksum.h
 ec_inject.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_vlan.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_vlan.c
 ec.h
 -
 ec_decode.h
@@ -1888,7 +1876,7 @@ ec_decode.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_wifi.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_wifi.c
 ec.h
 -
 ec_decode.h
@@ -1906,7 +1894,7 @@ openssl/rc4.h
 openssl/md5.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_wifi_eapol.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_wifi_eapol.c
 ec.h
 -
 ec_decode.h
@@ -1916,7 +1904,7 @@ ec_capture.h
 ec_encryption.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_wifi_prism.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_wifi_prism.c
 ec.h
 -
 ec_decode.h
@@ -1924,7 +1912,7 @@ ec_decode.h
 ec_capture.h
 -
 
-/root/ettercap-0.8.2/src/protocols/ec_wifi_radiotap.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/protocols/ec_wifi_radiotap.c
 ec.h
 -
 ec_decode.h

@@ -286,7 +286,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/isolate/isolate.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/isolate/isolate.c
 ec.h
 -
 ec_plugins.h

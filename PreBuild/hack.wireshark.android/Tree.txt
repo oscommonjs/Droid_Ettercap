@@ -1,0 +1,500 @@
+.
+|-- README.md
+|-- ettercap
+|   |-- etc
+|   |   `-- ettercap
+|   |       |-- etter.conf
+|   |       |-- etter.dns
+|   |       |-- etter.mdns
+|   |       `-- etter.nbns
+|   |-- ettercap
+|   |-- etterfilter
+|   |-- etterlog
+|   |-- lib
+|   |   |-- ettercap
+|   |   |   |-- ec_arp_cop.so
+|   |   |   |-- ec_autoadd.so
+|   |   |   |-- ec_chk_poison.so
+|   |   |   |-- ec_dns_spoof.so
+|   |   |   |-- ec_dos_attack.so
+|   |   |   |-- ec_dummy.so
+|   |   |   |-- ec_find_conn.so
+|   |   |   |-- ec_find_ettercap.so
+|   |   |   |-- ec_find_ip.so
+|   |   |   |-- ec_finger.so
+|   |   |   |-- ec_finger_submit.so
+|   |   |   |-- ec_fraggle_attack.so
+|   |   |   |-- ec_gre_relay.so
+|   |   |   |-- ec_gw_discover.so
+|   |   |   |-- ec_isolate.so
+|   |   |   |-- ec_link_type.so
+|   |   |   |-- ec_mdns_spoof.so
+|   |   |   |-- ec_nbns_spoof.so
+|   |   |   |-- ec_pptp_chapms1.so
+|   |   |   |-- ec_pptp_clear.so
+|   |   |   |-- ec_pptp_pap.so
+|   |   |   |-- ec_pptp_reneg.so
+|   |   |   |-- ec_rand_flood.so
+|   |   |   |-- ec_remote_browser.so
+|   |   |   |-- ec_reply_arp.so
+|   |   |   |-- ec_repoison_arp.so
+|   |   |   |-- ec_scan_poisoner.so
+|   |   |   |-- ec_search_promisc.so
+|   |   |   |-- ec_smb_clear.so
+|   |   |   |-- ec_smb_down.so
+|   |   |   |-- ec_smurf_attack.so
+|   |   |   `-- ec_stp_mangler.so
+|   |   |-- libcrypto.so.1.0.0
+|   |   |-- libdl.so.2
+|   |   |-- libettercap.so -> libettercap.so.0
+|   |   |-- libettercap.so.0 -> libettercap.so.0.0.0
+|   |   |-- libettercap.so.0.0.0
+|   |   |-- libform.so.5
+|   |   |-- libgcc_s.so.1
+|   |   |-- libluajit-5.1.so.2
+|   |   |-- libmenu.so.5
+|   |   |-- libncurses.so.5
+|   |   |-- libnet.so.1
+|   |   |-- libpanel.so.5
+|   |   |-- libpcap.so.0.8 -> ../../libc/lib/libpcap.so.0.8
+|   |   |-- libssl.so.1.0.0
+|   |   |-- libtinfo.so.5
+|   |   `-- libz.so.1
+|   `-- share
+|       `-- ettercap
+|           |-- AUTHORS
+|           |-- LICENSE
+|           |-- etter.fields
+|           |-- etter.filter
+|           |-- etter.filter.examples
+|           |-- etter.filter.kill
+|           |-- etter.filter.pcre
+|           |-- etter.filter.ssh
+|           |-- etter.finger.mac
+|           |-- etter.finger.os
+|           |-- etter.mime
+|           |-- etter.services
+|           |-- etter.ssl.crt
+|           |-- ettercap-small.png
+|           |-- ettercap.png
+|           |-- ettercap.svg
+|           |-- etterfilter.cnt
+|           |-- etterfilter.tbl
+|           |-- etterlog.dtd
+|           `-- lua
+|               |-- core
+|               |   |-- base64.lua
+|               |   |-- dumper.lua
+|               |   |-- ec_string.lua
+|               |   |-- eclib.lua
+|               |   |-- ettercap.lua
+|               |   |-- ettercap_ffi.lua
+|               |   |-- ettercap_reg.lua
+|               |   |-- hook_points.lua
+|               |   |-- http.lua
+|               |   |-- packet.lua
+|               |   |-- packet_meta.lua
+|               |   |-- shortpacket.lua
+|               |   `-- shortsession.lua
+|               |-- init.lua
+|               |-- scripts
+|               |   |-- get_imap_demo.lua
+|               |   |-- http_creds.lua
+|               |   |-- http_requests.lua
+|               |   |-- inject_http.lua
+|               |   |-- inject_http_demo.lua
+|               |   |-- smtp_redir.lua
+|               |   `-- tcp_session_demo.lua
+|               `-- third-party
+|                   |-- base.lua
+|                   |-- bin.lua
+|                   |-- debug_ext.lua
+|                   |-- debug_init.lua
+|                   |-- fstable.lua
+|                   |-- getopt.lua
+|                   |-- io_ext.lua
+|                   |-- lcs.lua
+|                   |-- list.lua
+|                   |-- math_ext.lua
+|                   |-- mbox.lua
+|                   |-- modules.lua
+|                   |-- object.lua
+|                   |-- package_ext.lua
+|                   |-- parser.lua
+|                   |-- set.lua
+|                   |-- std.lua
+|                   |-- strbuf.lua
+|                   |-- strict.lua
+|                   |-- string_ext.lua
+|                   |-- table_ext.lua
+|                   |-- tree.lua
+|                   `-- xml.lua
+|-- libc
+|   |-- etc
+|   |   |-- ld.so.cache
+|   |   `-- rpc
+|   |-- lib
+|   |   |-- Mcrt1.o
+|   |   |-- Scrt1.o
+|   |   |-- audit
+|   |   |   `-- sotruss-lib.so
+|   |   |-- crt1.o
+|   |   |-- crti.o
+|   |   |-- crtn.o
+|   |   |-- gconv
+|   |   |   |-- ANSI_X3.110.so
+|   |   |   |-- ARMSCII-8.so
+|   |   |   |-- ASMO_449.so
+|   |   |   |-- BIG5.so
+|   |   |   |-- BIG5HKSCS.so
+|   |   |   |-- BRF.so
+|   |   |   |-- CP10007.so
+|   |   |   |-- CP1125.so
+|   |   |   |-- CP1250.so
+|   |   |   |-- CP1251.so
+|   |   |   |-- CP1252.so
+|   |   |   |-- CP1253.so
+|   |   |   |-- CP1254.so
+|   |   |   |-- CP1255.so
+|   |   |   |-- CP1256.so
+|   |   |   |-- CP1257.so
+|   |   |   |-- CP1258.so
+|   |   |   |-- CP737.so
+|   |   |   |-- CP770.so
+|   |   |   |-- CP771.so
+|   |   |   |-- CP772.so
+|   |   |   |-- CP773.so
+|   |   |   |-- CP774.so
+|   |   |   |-- CP775.so
+|   |   |   |-- CP932.so
+|   |   |   |-- CSN_369103.so
+|   |   |   |-- CWI.so
+|   |   |   |-- DEC-MCS.so
+|   |   |   |-- EBCDIC-AT-DE-A.so
+|   |   |   |-- EBCDIC-AT-DE.so
+|   |   |   |-- EBCDIC-CA-FR.so
+|   |   |   |-- EBCDIC-DK-NO-A.so
+|   |   |   |-- EBCDIC-DK-NO.so
+|   |   |   |-- EBCDIC-ES-A.so
+|   |   |   |-- EBCDIC-ES-S.so
+|   |   |   |-- EBCDIC-ES.so
+|   |   |   |-- EBCDIC-FI-SE-A.so
+|   |   |   |-- EBCDIC-FI-SE.so
+|   |   |   |-- EBCDIC-FR.so
+|   |   |   |-- EBCDIC-IS-FRISS.so
+|   |   |   |-- EBCDIC-IT.so
+|   |   |   |-- EBCDIC-PT.so
+|   |   |   |-- EBCDIC-UK.so
+|   |   |   |-- EBCDIC-US.so
+|   |   |   |-- ECMA-CYRILLIC.so
+|   |   |   |-- EUC-CN.so
+|   |   |   |-- EUC-JISX0213.so
+|   |   |   |-- EUC-JP-MS.so
+|   |   |   |-- EUC-JP.so
+|   |   |   |-- EUC-KR.so
+|   |   |   |-- EUC-TW.so
+|   |   |   |-- GB18030.so
+|   |   |   |-- GBBIG5.so
+|   |   |   |-- GBGBK.so
+|   |   |   |-- GBK.so
+|   |   |   |-- GEORGIAN-ACADEMY.so
+|   |   |   |-- GEORGIAN-PS.so
+|   |   |   |-- GOST_19768-74.so
+|   |   |   |-- GREEK-CCITT.so
+|   |   |   |-- GREEK7-OLD.so
+|   |   |   |-- GREEK7.so
+|   |   |   |-- HP-GREEK8.so
+|   |   |   |-- HP-ROMAN8.so
+|   |   |   |-- HP-ROMAN9.so
+|   |   |   |-- HP-THAI8.so
+|   |   |   |-- HP-TURKISH8.so
+|   |   |   |-- IBM037.so
+|   |   |   |-- IBM038.so
+|   |   |   |-- IBM1004.so
+|   |   |   |-- IBM1008.so
+|   |   |   |-- IBM1008_420.so
+|   |   |   |-- IBM1025.so
+|   |   |   |-- IBM1026.so
+|   |   |   |-- IBM1046.so
+|   |   |   |-- IBM1047.so
+|   |   |   |-- IBM1097.so
+|   |   |   |-- IBM1112.so
+|   |   |   |-- IBM1122.so
+|   |   |   |-- IBM1123.so
+|   |   |   |-- IBM1124.so
+|   |   |   |-- IBM1129.so
+|   |   |   |-- IBM1130.so
+|   |   |   |-- IBM1132.so
+|   |   |   |-- IBM1133.so
+|   |   |   |-- IBM1137.so
+|   |   |   |-- IBM1140.so
+|   |   |   |-- IBM1141.so
+|   |   |   |-- IBM1142.so
+|   |   |   |-- IBM1143.so
+|   |   |   |-- IBM1144.so
+|   |   |   |-- IBM1145.so
+|   |   |   |-- IBM1146.so
+|   |   |   |-- IBM1147.so
+|   |   |   |-- IBM1148.so
+|   |   |   |-- IBM1149.so
+|   |   |   |-- IBM1153.so
+|   |   |   |-- IBM1154.so
+|   |   |   |-- IBM1155.so
+|   |   |   |-- IBM1156.so
+|   |   |   |-- IBM1157.so
+|   |   |   |-- IBM1158.so
+|   |   |   |-- IBM1160.so
+|   |   |   |-- IBM1161.so
+|   |   |   |-- IBM1162.so
+|   |   |   |-- IBM1163.so
+|   |   |   |-- IBM1164.so
+|   |   |   |-- IBM1166.so
+|   |   |   |-- IBM1167.so
+|   |   |   |-- IBM12712.so
+|   |   |   |-- IBM1364.so
+|   |   |   |-- IBM1371.so
+|   |   |   |-- IBM1388.so
+|   |   |   |-- IBM1390.so
+|   |   |   |-- IBM1399.so
+|   |   |   |-- IBM16804.so
+|   |   |   |-- IBM256.so
+|   |   |   |-- IBM273.so
+|   |   |   |-- IBM274.so
+|   |   |   |-- IBM275.so
+|   |   |   |-- IBM277.so
+|   |   |   |-- IBM278.so
+|   |   |   |-- IBM280.so
+|   |   |   |-- IBM281.so
+|   |   |   |-- IBM284.so
+|   |   |   |-- IBM285.so
+|   |   |   |-- IBM290.so
+|   |   |   |-- IBM297.so
+|   |   |   |-- IBM420.so
+|   |   |   |-- IBM423.so
+|   |   |   |-- IBM424.so
+|   |   |   |-- IBM437.so
+|   |   |   |-- IBM4517.so
+|   |   |   |-- IBM4899.so
+|   |   |   |-- IBM4909.so
+|   |   |   |-- IBM4971.so
+|   |   |   |-- IBM500.so
+|   |   |   |-- IBM5347.so
+|   |   |   |-- IBM803.so
+|   |   |   |-- IBM850.so
+|   |   |   |-- IBM851.so
+|   |   |   |-- IBM852.so
+|   |   |   |-- IBM855.so
+|   |   |   |-- IBM856.so
+|   |   |   |-- IBM857.so
+|   |   |   |-- IBM860.so
+|   |   |   |-- IBM861.so
+|   |   |   |-- IBM862.so
+|   |   |   |-- IBM863.so
+|   |   |   |-- IBM864.so
+|   |   |   |-- IBM865.so
+|   |   |   |-- IBM866.so
+|   |   |   |-- IBM866NAV.so
+|   |   |   |-- IBM868.so
+|   |   |   |-- IBM869.so
+|   |   |   |-- IBM870.so
+|   |   |   |-- IBM871.so
+|   |   |   |-- IBM874.so
+|   |   |   |-- IBM875.so
+|   |   |   |-- IBM880.so
+|   |   |   |-- IBM891.so
+|   |   |   |-- IBM901.so
+|   |   |   |-- IBM902.so
+|   |   |   |-- IBM903.so
+|   |   |   |-- IBM9030.so
+|   |   |   |-- IBM904.so
+|   |   |   |-- IBM905.so
+|   |   |   |-- IBM9066.so
+|   |   |   |-- IBM918.so
+|   |   |   |-- IBM921.so
+|   |   |   |-- IBM922.so
+|   |   |   |-- IBM930.so
+|   |   |   |-- IBM932.so
+|   |   |   |-- IBM933.so
+|   |   |   |-- IBM935.so
+|   |   |   |-- IBM937.so
+|   |   |   |-- IBM939.so
+|   |   |   |-- IBM943.so
+|   |   |   |-- IBM9448.so
+|   |   |   |-- IEC_P27-1.so
+|   |   |   |-- INIS-8.so
+|   |   |   |-- INIS-CYRILLIC.so
+|   |   |   |-- INIS.so
+|   |   |   |-- ISIRI-3342.so
+|   |   |   |-- ISO-2022-CN-EXT.so
+|   |   |   |-- ISO-2022-CN.so
+|   |   |   |-- ISO-2022-JP-3.so
+|   |   |   |-- ISO-2022-JP.so
+|   |   |   |-- ISO-2022-KR.so
+|   |   |   |-- ISO-IR-197.so
+|   |   |   |-- ISO-IR-209.so
+|   |   |   |-- ISO646.so
+|   |   |   |-- ISO8859-1.so
+|   |   |   |-- ISO8859-10.so
+|   |   |   |-- ISO8859-11.so
+|   |   |   |-- ISO8859-13.so
+|   |   |   |-- ISO8859-14.so
+|   |   |   |-- ISO8859-15.so
+|   |   |   |-- ISO8859-16.so
+|   |   |   |-- ISO8859-2.so
+|   |   |   |-- ISO8859-3.so
+|   |   |   |-- ISO8859-4.so
+|   |   |   |-- ISO8859-5.so
+|   |   |   |-- ISO8859-6.so
+|   |   |   |-- ISO8859-7.so
+|   |   |   |-- ISO8859-8.so
+|   |   |   |-- ISO8859-9.so
+|   |   |   |-- ISO8859-9E.so
+|   |   |   |-- ISO_10367-BOX.so
+|   |   |   |-- ISO_11548-1.so
+|   |   |   |-- ISO_2033.so
+|   |   |   |-- ISO_5427-EXT.so
+|   |   |   |-- ISO_5427.so
+|   |   |   |-- ISO_5428.so
+|   |   |   |-- ISO_6937-2.so
+|   |   |   |-- ISO_6937.so
+|   |   |   |-- JOHAB.so
+|   |   |   |-- KOI-8.so
+|   |   |   |-- KOI8-R.so
+|   |   |   |-- KOI8-RU.so
+|   |   |   |-- KOI8-T.so
+|   |   |   |-- KOI8-U.so
+|   |   |   |-- LATIN-GREEK-1.so
+|   |   |   |-- LATIN-GREEK.so
+|   |   |   |-- MAC-CENTRALEUROPE.so
+|   |   |   |-- MAC-IS.so
+|   |   |   |-- MAC-SAMI.so
+|   |   |   |-- MAC-UK.so
+|   |   |   |-- MACINTOSH.so
+|   |   |   |-- MIK.so
+|   |   |   |-- NATS-DANO.so
+|   |   |   |-- NATS-SEFI.so
+|   |   |   |-- PT154.so
+|   |   |   |-- RK1048.so
+|   |   |   |-- SAMI-WS2.so
+|   |   |   |-- SHIFT_JISX0213.so
+|   |   |   |-- SJIS.so
+|   |   |   |-- T.61.so
+|   |   |   |-- TCVN5712-1.so
+|   |   |   |-- TIS-620.so
+|   |   |   |-- TSCII.so
+|   |   |   |-- UHC.so
+|   |   |   |-- UNICODE.so
+|   |   |   |-- UTF-16.so
+|   |   |   |-- UTF-32.so
+|   |   |   |-- UTF-7.so
+|   |   |   |-- VISCII.so
+|   |   |   |-- gconv-modules
+|   |   |   |-- libCNS.so
+|   |   |   |-- libGB.so
+|   |   |   |-- libISOIR165.so
+|   |   |   |-- libJIS.so
+|   |   |   |-- libJISX0213.so
+|   |   |   `-- libKSC.so
+|   |   |-- gcrt1.o
+|   |   |-- ld-2.21.so
+|   |   |-- ld-linux-armhf.so.3 -> ld-2.21.so
+|   |   |-- libBrokenLocale-2.21.so
+|   |   |-- libBrokenLocale.a
+|   |   |-- libBrokenLocale.so -> libBrokenLocale.so.1
+|   |   |-- libBrokenLocale.so.1 -> libBrokenLocale-2.21.so
+|   |   |-- libSegFault.so
+|   |   |-- libanl-2.21.so
+|   |   |-- libanl.a
+|   |   |-- libanl.so -> libanl.so.1
+|   |   |-- libanl.so.1 -> libanl-2.21.so
+|   |   |-- libc-2.21.so
+|   |   |-- libc.a
+|   |   |-- libc.so
+|   |   |-- libc.so.6 -> libc-2.21.so
+|   |   |-- libc_nonshared.a
+|   |   |-- libcidn-2.21.so
+|   |   |-- libcidn.so -> libcidn.so.1
+|   |   |-- libcidn.so.1 -> libcidn-2.21.so
+|   |   |-- libcrypt-2.21.so
+|   |   |-- libcrypt.a
+|   |   |-- libcrypt.so -> libcrypt.so.1
+|   |   |-- libcrypt.so.1 -> libcrypt-2.21.so
+|   |   |-- libdl-2.21.so
+|   |   |-- libdl.a
+|   |   |-- libdl.so -> libdl.so.2
+|   |   |-- libdl.so.2 -> libdl-2.21.so
+|   |   |-- libg.a
+|   |   |-- libieee.a
+|   |   |-- libm-2.21.so
+|   |   |-- libm.a
+|   |   |-- libm.so -> libm.so.6
+|   |   |-- libm.so.6 -> libm-2.21.so
+|   |   |-- libmcheck.a
+|   |   |-- libmemusage.so
+|   |   |-- libnsl-2.21.so
+|   |   |-- libnsl.a
+|   |   |-- libnsl.so -> libnsl.so.1
+|   |   |-- libnsl.so.1 -> libnsl-2.21.so
+|   |   |-- libnss_compat-2.21.so
+|   |   |-- libnss_compat.so -> libnss_compat.so.2
+|   |   |-- libnss_compat.so.2 -> libnss_compat-2.21.so
+|   |   |-- libnss_db-2.21.so
+|   |   |-- libnss_db.so -> libnss_db.so.2
+|   |   |-- libnss_db.so.2 -> libnss_db-2.21.so
+|   |   |-- libnss_dns-2.21.so
+|   |   |-- libnss_dns.so -> libnss_dns.so.2
+|   |   |-- libnss_dns.so.2 -> libnss_dns-2.21.so
+|   |   |-- libnss_files-2.21.so
+|   |   |-- libnss_files.so -> libnss_files.so.2
+|   |   |-- libnss_files.so.2 -> libnss_files-2.21.so
+|   |   |-- libnss_hesiod-2.21.so
+|   |   |-- libnss_hesiod.so -> libnss_hesiod.so.2
+|   |   |-- libnss_hesiod.so.2 -> libnss_hesiod-2.21.so
+|   |   |-- libnss_nis-2.21.so
+|   |   |-- libnss_nis.so -> libnss_nis.so.2
+|   |   |-- libnss_nis.so.2 -> libnss_nis-2.21.so
+|   |   |-- libnss_nisplus-2.21.so
+|   |   |-- libnss_nisplus.so -> libnss_nisplus.so.2
+|   |   |-- libnss_nisplus.so.2 -> libnss_nisplus-2.21.so
+|   |   |-- libpcap.so.0.8
+|   |   |-- libpcprofile.so
+|   |   |-- libpthread-2.21.so
+|   |   |-- libpthread.a
+|   |   |-- libpthread.so
+|   |   |-- libpthread.so.0 -> libpthread-2.21.so
+|   |   |-- libpthread_nonshared.a
+|   |   |-- libresolv-2.21.so
+|   |   |-- libresolv.a
+|   |   |-- libresolv.so -> libresolv.so.2
+|   |   |-- libresolv.so.2 -> libresolv-2.21.so
+|   |   |-- librpcsvc.a
+|   |   |-- librt-2.21.so
+|   |   |-- librt.a
+|   |   |-- librt.so -> librt.so.1
+|   |   |-- librt.so.1 -> librt-2.21.so
+|   |   |-- libthread_db-1.0.so
+|   |   |-- libthread_db.so -> libthread_db.so.1
+|   |   |-- libthread_db.so.1 -> libthread_db-1.0.so
+|   |   |-- libutil-2.21.so
+|   |   |-- libutil.a
+|   |   |-- libutil.so -> libutil.so.1
+|   |   `-- libutil.so.1 -> libutil-2.21.so
+|   |-- libexec
+|   |   |-- getconf
+|   |   |   |-- POSIX_V6_ILP32_OFF32
+|   |   |   |-- POSIX_V6_ILP32_OFFBIG
+|   |   |   |-- POSIX_V7_ILP32_OFF32
+|   |   |   |-- POSIX_V7_ILP32_OFFBIG
+|   |   |   |-- XBS5_ILP32_OFF32
+|   |   |   `-- XBS5_ILP32_OFFBIG
+|   |   `-- pt_chown
+|   `-- var
+|       `-- db
+|           `-- Makefile
+|-- tcpdump
+|   |-- depend
+|   |   `-- libpcap.so.0.8 -> ../../libc/lib/libpcap.so.0.8
+|   `-- tcpdump
+`-- tree
+
+22 directories, 475 files

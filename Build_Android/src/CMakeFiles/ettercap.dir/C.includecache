@@ -354,7 +354,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/src/ec_main.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_main.c
 ec.h
 -
 ec_version.h
@@ -402,7 +402,7 @@ ec_utils.h
 ec_lua.h
 -
 
-/root/ettercap-0.8.2/src/ec_parser.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/ec_parser.c
 ec.h
 -
 ec_parser.h

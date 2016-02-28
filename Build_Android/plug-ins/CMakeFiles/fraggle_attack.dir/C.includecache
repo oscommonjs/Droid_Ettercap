@@ -282,7 +282,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/fraggle_attack/fraggle_attack.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/fraggle_attack/fraggle_attack.c
 ec.h
 -
 ec_inet.h

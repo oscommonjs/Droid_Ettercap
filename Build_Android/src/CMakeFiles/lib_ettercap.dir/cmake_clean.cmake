@@ -121,8 +121,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lib_ettercap.dir/mitm/ec_ip6nd_poison.c.o"
   "CMakeFiles/lib_ettercap.dir/dissectors/ec_dns.c.o"
   "CMakeFiles/lib_ettercap.dir/os/ec_linux.c.o"
-  "CMakeFiles/lib_ettercap.dir/missing/strlcat.c.o"
-  "CMakeFiles/lib_ettercap.dir/missing/strlcpy.c.o"
   "libettercap.pdb"
   "libettercap.so"
   "libettercap.so.0.0.0"

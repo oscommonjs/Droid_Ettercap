@@ -1,8 +1,8 @@
-if(NOT EXISTS "/root/ettercap-0.8.2/Build_Android/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /root/ettercap-0.8.2/Build_Android/install_manifest.txt")
-endif(NOT EXISTS "/root/ettercap-0.8.2/Build_Android/install_manifest.txt")
+if(NOT EXISTS "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/zzh/WorkSpace/Droid_Ettercap/Build_Android/install_manifest.txt")
+endif(NOT EXISTS "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/install_manifest.txt")
 
-file(READ "/root/ettercap-0.8.2/Build_Android/install_manifest.txt" files)
+file(READ "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

@@ -220,7 +220,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/utils/etterlog/el_analyze.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_analyze.c
 el.h
 -
 ec_log.h
@@ -232,7 +232,7 @@ el_functions.h
 sys/stat.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_conn.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_conn.c
 el.h
 -
 ec_log.h
@@ -242,7 +242,7 @@ ec_inet.h
 el_functions.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_decode.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_decode.c
 el.h
 -
 el_functions.h
@@ -252,13 +252,13 @@ fcntl.h
 libgen.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_decode_http.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_decode_http.c
 el.h
 -
 el_functions.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_display.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_display.c
 el.h
 -
 ec_version.h
@@ -282,19 +282,19 @@ sys/stat.h
 regex.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_ec_compat.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_ec_compat.c
 el.h
 -
 stdarg.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_log.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_log.c
 el.h
 -
 ec_log.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_main.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_main.c
 el.h
 -
 el_functions.h
@@ -304,7 +304,7 @@ ec_version.h
 fcntl.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_parser.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_parser.c
 el.h
 -
 ec_version.h
@@ -320,7 +320,7 @@ getopt.h
 missing/getopt.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_profiles.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_profiles.c
 el.h
 -
 ec_log.h
@@ -328,13 +328,13 @@ ec_log.h
 ec_profiles.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_stream.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_stream.c
 el.h
 -
 el_functions.h
 -
 
-/root/ettercap-0.8.2/utils/etterlog/el_target.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterlog/el_target.c
 el.h
 -
 el_functions.h

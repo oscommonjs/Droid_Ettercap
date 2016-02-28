@@ -304,7 +304,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/nbns_spoof/nbns_spoof.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/nbns_spoof/nbns_spoof.c
 ec.h
 -
 ec_dissect.h

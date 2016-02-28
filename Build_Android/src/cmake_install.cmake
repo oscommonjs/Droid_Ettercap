@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -54,9 +54,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/lib" TYPE SHARED_LIBRARY FILES
-    "/root/ettercap-0.8.2/Build_Android/src/libettercap.so.0.0.0"
-    "/root/ettercap-0.8.2/Build_Android/src/libettercap.so.0"
-    "/root/ettercap-0.8.2/Build_Android/src/libettercap.so"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/libettercap.so.0.0.0"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/libettercap.so.0"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/libettercap.so"
     )
   foreach(file
       "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/lib/libettercap.so.0.0.0"
@@ -87,12 +87,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/bin" TYPE EXECUTABLE FILES "/root/ettercap-0.8.2/Build_Android/src/ettercap")
+file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/bin" TYPE EXECUTABLE FILES "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/ettercap")
   if(EXISTS "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/ettercap" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/ettercap")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/ettercap"
-         OLD_RPATH "/root/ettercap-0.8.2/Build_Android/src::::::::"
+         OLD_RPATH "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src:"
          NEW_RPATH "/data/data/hack.wireshark.android/ettercap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/data/data/hack.wireshark.android/ettercap/bin/ettercap")
@@ -102,8 +102,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/ettercap-0.8.2/Build_Android/src/interfaces/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/src/lua/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/interfaces/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/cmake_install.cmake")
 
 endif()
 

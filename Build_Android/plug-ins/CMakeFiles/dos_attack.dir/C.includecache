@@ -286,7 +286,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/dos_attack/dos_attack.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/dos_attack/dos_attack.c
 ec.h
 -
 ec_plugins.h

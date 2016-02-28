@@ -19,29 +19,29 @@
 #define HAVE_STDINT_H
 #define HAVE_GETOPT_H
 #define HAVE_ARPA_NAMESER_H
-/* #undef HAVE_LTDL_H */
+#define HAVE_LTDL_H
 #define HAVE_DLFCN_H
 #define HAVE_CTYPE_H
 #define HAVE_INTTYPES_H
 #define HAVE_MUTEX_RECURSIVE_NP
 #define HAVE_LIBGEN_H
 
-/* #undef HAVE_PCRE */
+#define HAVE_PCRE
 #define HAVE_POLL
 #define HAVE_STRTOK_R
 #define HAVE_STRNDUP
 #define HAVE_SELECT
 #define HAVE_SCANDIR
-/* #undef HAVE_STRLCAT */
+#define HAVE_STRLCAT
 /* #undef HAVE_STRLCAT_FUNCTION */
-/* #undef HAVE_STRLCPY */
+#define HAVE_STRLCPY
 /* #undef HAVE_STRLCPY_FUNCTION */
 #define HAVE_STRSEP
 #define HAVE_STRCASESTR
 #define HAVE_MEMMEM
 #define HAVE_BASENAME
 
-#define HAVE_NCURSES
+/* #undef HAVE_NCURSES */
 /* #undef HAVE_GTK */
 /* #undef HAVE_GTK3 */
 

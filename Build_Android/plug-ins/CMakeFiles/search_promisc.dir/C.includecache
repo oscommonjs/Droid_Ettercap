@@ -286,7 +286,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/search_promisc/search_promisc.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/search_promisc/search_promisc.c
 ec.h
 -
 ec_plugins.h

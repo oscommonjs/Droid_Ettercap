@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src/lua/share
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src/lua/share
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,15 +41,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/ettercap/lua" TYPE FILE FILES "/root/ettercap-0.8.2/Build_Android/src/lua/share/init.lua")
+file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/ettercap/lua" TYPE FILE FILES "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/init.lua")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/ettercap-0.8.2/Build_Android/src/lua/share/core/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/src/lua/share/lib/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/src/lua/share/scripts/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/src/lua/share/third-party/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/core/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/lib/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/scripts/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/third-party/cmake_install.cmake")
 
 endif()
 

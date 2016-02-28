@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,29 +42,29 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/ettercap/lua/third-party" TYPE FILE FILES
-    "/root/ettercap-0.8.2/Build_Android/src/lua/share/third-party/stdlib/src/std.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/base.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/bin.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/debug_ext.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/debug_init.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/fstable.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/getopt.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/io_ext.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/lcs.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/list.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/math_ext.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/mbox.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/modules.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/object.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/package_ext.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/parser.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/set.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/strbuf.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/strict.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/string_ext.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/table_ext.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/tree.lua"
-    "/root/ettercap-0.8.2/src/lua/share/third-party/stdlib/src/xml.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/third-party/stdlib/src/std.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/base.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/bin.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/debug_ext.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/debug_init.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/fstable.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/getopt.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/io_ext.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/lcs.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/list.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/math_ext.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/mbox.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/modules.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/object.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/package_ext.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/parser.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/set.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/strbuf.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/strict.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/string_ext.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/table_ext.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/tree.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib/src/xml.lua"
     )
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src/lua/share/core
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,19 +42,19 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/ettercap/lua/core" TYPE FILE FILES
-    "/root/ettercap-0.8.2/src/lua/share/core/dumper.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/ettercap.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/ettercap_ffi.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/ettercap_reg.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/hook_points.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/packet.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/packet_meta.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/shortpacket.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/shortsession.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/eclib.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/http.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/base64.lua"
-    "/root/ettercap-0.8.2/src/lua/share/core/ec_string.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/dumper.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/ettercap.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/ettercap_ffi.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/ettercap_reg.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/hook_points.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/packet.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/packet_meta.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/shortpacket.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/shortsession.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/eclib.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/http.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/base64.lua"
+    "/home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/core/ec_string.lua"
     )
 endif()
 

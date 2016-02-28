@@ -188,7 +188,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/Build_Android/utils/ef_grammar.c
+/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/utils/ef_grammar.c
 ef.h
 -
 ef_functions.h
@@ -210,7 +210,7 @@ stdlib.h
 stdio.h
 -
 
-/root/ettercap-0.8.2/Build_Android/utils/ef_syntax.c
+/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/utils/ef_syntax.c
 stdio.h
 -
 string.h
@@ -232,19 +232,19 @@ ef_grammar.h
 unistd.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_compiler.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_compiler.c
 ef.h
 -
 ef_functions.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_ec_compat.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_ec_compat.c
 ef.h
 -
 stdarg.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_encode.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_encode.c
 ef.h
 -
 ef_functions.h
@@ -258,7 +258,7 @@ regex.h
 pcre.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_main.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_main.c
 ef.h
 -
 ef_functions.h
@@ -268,7 +268,7 @@ ec_version.h
 stdarg.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_output.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_output.c
 ef.h
 -
 ef_functions.h
@@ -284,7 +284,7 @@ sys/stat.h
 fcntl.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_parser.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_parser.c
 ef.h
 -
 ec_version.h
@@ -298,7 +298,7 @@ getopt.h
 missing/getopt.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_tables.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_tables.c
 ef.h
 -
 ec_file.h
@@ -306,7 +306,7 @@ ec_file.h
 ctype.h
 -
 
-/root/ettercap-0.8.2/utils/etterfilter/ef_test.c
+/home/zzh/WorkSpace/Droid_Ettercap/utils/etterfilter/ef_test.c
 ef.h
 -
 ec_filter.h

@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/ettercap-0.8.2/Build_Android/src/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/desktop/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/plug-ins/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/utils/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/share/cmake_install.cmake")
-  include("/root/ettercap-0.8.2/Build_Android/man/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/desktop/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/plug-ins/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/utils/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/share/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/man/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/ettercap-0.8.2/Build_Android/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

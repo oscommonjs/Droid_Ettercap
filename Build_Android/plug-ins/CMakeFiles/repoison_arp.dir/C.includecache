@@ -288,7 +288,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/repoison_arp/repoison_arp.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/repoison_arp/repoison_arp.c
 ec.h
 -
 ec_plugins.h

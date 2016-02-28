@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/src/lua/share/third-party/stdlib
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/src/lua/share/third-party/stdlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/ettercap-0.8.2/Build_Android/src/lua/share/third-party/stdlib/src/cmake_install.cmake")
+  include("/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/src/lua/share/third-party/stdlib/src/cmake_install.cmake")
 
 endif()
 

@@ -274,7 +274,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/pptp_chapms1/pptp_chapms1.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/pptp_chapms1/pptp_chapms1.c
 ec.h
 -
 ec_plugins.h

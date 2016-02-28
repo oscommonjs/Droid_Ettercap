@@ -282,7 +282,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/plug-ins/smurf_attack/smurf_attack.c
+/home/zzh/WorkSpace/Droid_Ettercap/plug-ins/smurf_attack/smurf_attack.c
 ec.h
 -
 ec_inet.h

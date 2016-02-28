@@ -1,4 +1,4 @@
-# Install script for directory: /root/ettercap-0.8.2/man
+# Install script for directory: /home/zzh/WorkSpace/Droid_Ettercap/man
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,9 +42,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man8" TYPE FILE FILES
-    "/root/ettercap-0.8.2/Build_Android/man/ettercap.8"
-    "/root/ettercap-0.8.2/Build_Android/man/etterfilter.8"
-    "/root/ettercap-0.8.2/Build_Android/man/etterlog.8"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/man/ettercap.8"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/man/etterfilter.8"
+    "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/man/etterlog.8"
     )
 endif()
 
@@ -57,31 +57,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man8" TYPE FILE FILES "/root/ettercap-0.8.2/Build_Android/man/ettercap_plugins.8")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/data/data/hack.wireshark.android/ettercap/share/man/man8/ettercap_curses.8")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man8" TYPE FILE FILES "/root/ettercap-0.8.2/Build_Android/man/ettercap_curses.8")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/data/data/hack.wireshark.android/ettercap/share/man/man8/ettercap-pkexec.8")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man8" TYPE FILE FILES "/root/ettercap-0.8.2/Build_Android/man/ettercap-pkexec.8")
+file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man8" TYPE FILE FILES "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/man/ettercap_plugins.8")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -93,6 +69,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man5" TYPE FILE FILES "/root/ettercap-0.8.2/Build_Android/man/etter.conf.5")
+file(INSTALL DESTINATION "/data/data/hack.wireshark.android/ettercap/share/man/man5" TYPE FILE FILES "/home/zzh/WorkSpace/Droid_Ettercap/Build_Android/man/etter.conf.5")
 endif()
 

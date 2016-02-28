@@ -260,7 +260,7 @@ nameser_compat.h
 
 ../include/missing/strsep.h
 
-/root/ettercap-0.8.2/src/lua/ec_lua.c
+/home/zzh/WorkSpace/Droid_Ettercap/src/lua/ec_lua.c
 ec.h
 -
 ec_hook.h
@@ -274,11 +274,11 @@ ec_error.h
 ec_packet.h
 -
 lua.h
-/root/ettercap-0.8.2/src/lua/lua.h
+/home/zzh/WorkSpace/Droid_Ettercap/src/lua/lua.h
 lualib.h
-/root/ettercap-0.8.2/src/lua/lualib.h
+/home/zzh/WorkSpace/Droid_Ettercap/src/lua/lualib.h
 lauxlib.h
-/root/ettercap-0.8.2/src/lua/lauxlib.h
+/home/zzh/WorkSpace/Droid_Ettercap/src/lua/lauxlib.h
 stdlib.h
 -
 string.h
