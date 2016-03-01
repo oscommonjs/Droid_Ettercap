@@ -12,6 +12,11 @@
 > 2016 2 28  
 > ZhuZhiHao  
 
+
+
+# 此版本Ettercap存在BUG，load_path找不到*.conf路径，手动指定无效，我尽力修复（如果学校周末放假的话）...
+
+
 ```
 去除Ncurses界面（无用）
 添加SSL | HTTPS嗅探支持
