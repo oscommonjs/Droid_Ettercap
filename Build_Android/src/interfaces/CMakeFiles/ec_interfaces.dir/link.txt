@@ -1,2 +1,0 @@
-/usr/bin/ar qc libec_interfaces.a  CMakeFiles/ec_interfaces.dir/__/ec_interfaces.c.o CMakeFiles/ec_interfaces.dir/text/ec_text.c.o CMakeFiles/ec_interfaces.dir/text/ec_text_conn.c.o CMakeFiles/ec_interfaces.dir/text/ec_text_display.c.o CMakeFiles/ec_interfaces.dir/text/ec_text_plugin.c.o CMakeFiles/ec_interfaces.dir/text/ec_text_profile.c.o CMakeFiles/ec_interfaces.dir/daemon/ec_daemon.c.o
-/usr/bin/ranlib libec_interfaces.a
