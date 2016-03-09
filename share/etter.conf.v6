@@ -53,6 +53,7 @@ checksum_check = 0            # boolean value
 submit_fingerprint = 0        # boolean valid (set if you want ettercap to submit unknown finger prints)
 checksum_warning = 0          # boolean value (valid only if checksum_check is 1)
 sniffing_at_startup = 1       # boolean value
+geoip_support_enable = 1      # boolean value (set geoip_data_file of GeoIP database file cannot be located)
 
 ############################################################################
 #
@@ -153,6 +154,11 @@ utf8_encoding = "ISO-8859-1"
 # the command used by the remote_browser plugin
 remote_browser = "xdg-open http://%host%url"
 
+# location of the GeoIP database file in case it's not the standard location
+# this is mostly necessary on Windows or if libgeoip is manually build
+geoip_data_file = "/path/to/GeoIP.dat"
+geoip_data_file_v6 = "/path/to/GeoIPv6.dat"
+
 
 #####################################
 #       redir_command_on/off
@@ -176,6 +182,10 @@ remote_browser = "xdg-open http://%host%url"
 # if you use iptables:
    #redir_command_on = "iptables -t nat -A PREROUTING -i %iface -p tcp --dport %port -j REDIRECT --to-port %rport"
    #redir_command_off = "iptables -t nat -D PREROUTING -i %iface -p tcp --dport %port -j REDIRECT --to-port %rport"
+
+# pendant for IPv6 - Note that you need iptables v1.4.16 or newer to use IPv6 redirect
+   #redir6_command_on = "ip6tables -t nat -A PREROUTING -i %iface -p tcp --dport %port -j REDIRECT --to-port %rport"
+   #redir6_command_off = "ip6tables -t nat -D PREROUTING -i %iface -p tcp --dport %port -j REDIRECT --to-port %rport"
 
 #---------------
 #    Mac Os X
@@ -220,8 +230,11 @@ remote_browser = "xdg-open http://%host%url"
 # `pfctl -e`.
 
    #redir_command_on = "(pfctl -sn 2> /dev/null; echo 'rdr pass on %iface inet proto tcp from any to any port %port -> localhost port %rport') | pfctl -f - 2> /dev/null"
-   #redir_command_off = "pfctl -Psn 2> /dev/null | grep -v %port | pfctl -f - 2> /dev/null"
+   #redir_command_off = "pfctl -Psn 2> /dev/null | egrep -v 'inet .+ %port' | pfctl -f - 2> /dev/null"
 
+# pendant for IPv6
+   #redir6_command_on = "(pfctl -sn 2> /dev/null; echo 'rdr pass on %iface inet6 proto tcp from any to any port %port -> localhost port %rport') | pfctl -f - 2> /dev/null"
+   #redir6_command_off = "pfctl -Psn 2> /dev/null | egrep -v 'inet6 .+ %port' | pfctl -f - 2> /dev/null"
 
 #---------------
 #   Open BSD

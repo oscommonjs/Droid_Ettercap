@@ -16,6 +16,10 @@
 去除Ncurses界面（无用）
 添加SSL | HTTPS嗅探支持
 版本更新ETTERCAP 0.8.1---> ETTERCAP 0.8.2
+BugFix:Remove check !=NULL SAFE_FREE
+Update LuaJIT
+libgeoip-dev编译选项
+解决编译失败-Wformat -Werror=…
 ```
 
 ###                  E T T E R C A P   P O R T I N G   TO   A N D R O I D
